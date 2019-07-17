@@ -53,7 +53,7 @@ export class InPageNavigtion implements ComponentInterface {
   render() {
     const pageLinks = this.pageLinks.filter(pl => pl.level !== 1);
     const submitEditLink = (
-       <a class="submit-edit-link" href={GITHUB_URL + `edit/master/${this.srcUrl}`}>
+       <a class="submit-edit-link" href={GITHUB_URL + `/edit/master/${this.srcUrl}`}>
          <app-icon name="github"></app-icon>
          <span>Submit an edit</span>
        </a>
