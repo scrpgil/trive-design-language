@@ -4,7 +4,7 @@ export const config: Config = {
   outputTargets: [
     {
       type: 'www',
-      baseUrl: '/',
+      baseUrl: 'https://component-library-template.netlify.com/',
       prerenderConfig: './prerender.config.js',
       serviceWorker: {
         unregister: true
