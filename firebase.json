@@ -1,0 +1,39 @@
+{
+  "hosting": {
+    "public": "www",
+    "trailingSlash": false,
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index-org.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/build/p-*",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=365000000, immutable"
+          }
+        ]
+      },
+      {
+        "source": "/assets/img/**/*",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=86400"
+          }
+        ]
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/docs?(/)",
+        "destination": "/docs/introduction",
+        "type": 301
+      }
+    ]
+  }
+}
