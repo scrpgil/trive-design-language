@@ -1,24 +1,44 @@
 [
   {
-    "text": "Introduction",
+    "text": "導入",
     "children": [
       {
-        "text": "What is this?",
+        "text": "これはなに?",
         "filePath": "/assets/docs/introduction/what-is-this.json",
         "url": "/docs/introduction"
+      },
+      {
+        "text": "原則",
+        "filePath": "/assets/docs/introduction/principle.json",
+        "url": "/docs/principle"
+      },
+      {
+        "text": "スタイルガイド",
+        "filePath": "/assets/docs/introduction/styleguid.json",
+        "url": "/docs/styleguide"
       }
     ]
   },
   {
-    "text": "Chapter",
+    "text": "コンポーネント",
     "children": [
       {
-        "text": "Section1",
+        "text": "Button",
         "filePath": "/assets/docs/chapter/section1.json",
         "url": "/docs/section1"
       },
       {
-        "text": "Section2",
+        "text": "Badge",
+        "filePath": "/assets/docs/chapter/section2.json",
+        "url": "/docs/section2"
+      },
+      {
+        "text": "Form",
+        "filePath": "/assets/docs/chapter/section2.json",
+        "url": "/docs/section2"
+      },
+      {
+        "text": "Card",
         "filePath": "/assets/docs/chapter/section2.json",
         "url": "/docs/section2"
       }

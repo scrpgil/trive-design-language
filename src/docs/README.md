@@ -1,7 +1,11 @@
 # Table of Contents
 
-* Introduction
-  * [What is this?](introduction/what-is-this.md)
-* Chapter
-  * [Section1](chapter/section1.md)
-  * [Section2](chapter/section2.md)
+* 導入
+  * [これはなに?](introduction/what-is-this.md)
+  * [原則](introduction/principle.md)
+  * [スタイルガイド](introduction/styleguid.md)
+* コンポーネント
+  * [Button](chapter/section1.md)
+  * [Badge](chapter/section2.md)
+  * [Form](chapter/section2.md)
+  * [Card](chapter/section2.md)

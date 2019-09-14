@@ -1,15 +1,16 @@
 ---
-title: Component Library Template
+title: What is this
 description: Provides a template for creating a WebComponent library.
 url: /docs/introduction
 ---
 
-# What is this?
+# これはなに？
 
-This repository is a template for creating a WebComponent library. The following is mainly described.
+TRIVE Design Languageは技術書典7で頒布した書籍「ゼロから始めるデザインシステム」用に作成したデザインシステムになります。以下のコンテンツがあります。
 
- - Introduction
- - Design principle
- - Component collection
+ - 導入
+ - デザイン原則
+ - スタイルガイド
+ - コンポーネントライブラリ
 
-This repository was created using [stencil-site](https://github.com/ionic-team/stencil-site).
+この記事のリポジトリは [trive-design-language](https://github.com/scrpgil/trive-design-langage).

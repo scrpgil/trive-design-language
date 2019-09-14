@@ -64,3 +64,7 @@
   border-radius: 8px;
   min-height: 38px;
 }
+
+.btn--main-black {
+  color: var(--td-color-sub-black);
+}

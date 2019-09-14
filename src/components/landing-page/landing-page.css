@@ -39,13 +39,19 @@ landing-page .hero hgroup stencil-route-link + stencil-route-link {
   margin-left: 10px;
 }
 
-landing-page .hero svg {
+
+landing-page .hero img {
   position: absolute;
   z-index: 1;
   top: 50%;
-  left: 50%;
+  right: 0;
   transform: translate(-80px, -50%);
   margin-top: 20px;
+}
+@media screen and (max-width: 760px) {
+  landing-page .hero img {
+    display: none;
+  }
 }
 
 landing-page .companies {
@@ -73,13 +79,25 @@ landing-page .companies ul {
 
 landing-page .companies ul li {
   display: inherit;
+  text-align: left;
 }
 
+landing-page .companies ul li:first-child {
+  display: inherit;
+  margin-right: 12px;
+}
+
+landing-page .companies ul li:last-child {
+  display: inherit;
+  margin-left: 12px;
+}
+
+
+
 landing-page .cta {
-  background: #F4F7FA;
+  background: var(--td-color-bg);
   text-align: center;
   padding: 18px;
-  margin-top: 36px;
 }
 
 landing-page .cta__primary {
@@ -138,7 +156,6 @@ landing-page .cta__secondary {
 }
 
 landing-page section {
-  padding: 160px 0;
 }
 landing-page section:not(.overview):not(.gradient-bg) + section:not(.stencil-story) {
   padding-top: 80px;
@@ -553,4 +570,12 @@ h2 + .feature-list {
 
 .card-links__item .fw-icon {
   margin: 8px 0 6px;
+}
+.td-card .td-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--td-color-main-black);
+}
+.td-card .td-card-footer {
+  margin-top:8px;
 }
