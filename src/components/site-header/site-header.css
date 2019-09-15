@@ -48,7 +48,7 @@ body.dark site-header .icon-logo {
   transition: border .3s, color .3s;
   font-size: 14px;
   padding-bottom: 4px;
-  border-bottom: 3px solid transparent;
+  border-bottom: 2px solid transparent;
   vertical-align: top;
   color: var(--color-gunpowder);
   text-decoration: none;
@@ -63,10 +63,10 @@ body.dark site-header .icon-logo {
 }
 
 .header-menu stencil-route-link a:hover {
-  border-bottom-color:var(--color-whisper);
+  border-bottom-color: var(--td-color-main-tint);
 }
 .header-menu stencil-route-link a.link-active {
-  border-bottom-color: rgba(87, 85, 246, 0.3);
+  border-bottom-color: var(--td-color-main);
 }
 
 .header-menu stencil-route-link a.link-active {

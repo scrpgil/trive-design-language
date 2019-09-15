@@ -83,6 +83,7 @@ export class AppRoot {
                             />
 
                             <stencil-route url="/resources" component="resources-page" />
+                            <stencil-route url="/styleguide" component="styleguide-page" />
                             <stencil-route component="notfound-page" />
                         </stencil-route-switch>
                     </stencil-router>
@@ -92,6 +93,7 @@ export class AppRoot {
                                 <a
                                     href="https://github.com/scrpgil/trive-design-language"
                                     title="ComponentLibraryTemplate"
+                                    target="_blank"
                                     rel="noopener">
                                     TRIVE Design Language
                                 </a>

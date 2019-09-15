@@ -14,12 +14,12 @@ export class LowerContentNav {
     return [
       (this.prev != null ?
         <stencil-route-link url={this.prev.url} anchorClass="pull-left btn btn--secondary">
-          Back
+          戻る
         </stencil-route-link> :
         null ),
       (this.next != null ?
         <stencil-route-link url={this.next.url} anchorClass="pull-right btn btn--primary">
-          Next
+          次へ
         </stencil-route-link> :
         null )
     ];

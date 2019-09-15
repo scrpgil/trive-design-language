@@ -61,6 +61,7 @@ export namespace Components {
     'siteStructureList': SiteStructureItem[];
   }
   interface SiteTopBar {}
+  interface StyleguidePage {}
 }
 
 declare global {
@@ -167,6 +168,12 @@ declare global {
     prototype: HTMLSiteTopBarElement;
     new (): HTMLSiteTopBarElement;
   };
+
+  interface HTMLStyleguidePageElement extends Components.StyleguidePage, HTMLStencilElement {}
+  var HTMLStyleguidePageElement: {
+    prototype: HTMLStyleguidePageElement;
+    new (): HTMLStyleguidePageElement;
+  };
   interface HTMLElementTagNameMap {
     'app-burger': HTMLAppBurgerElement;
     'app-icon': HTMLAppIconElement;
@@ -185,6 +192,7 @@ declare global {
     'site-header': HTMLSiteHeaderElement;
     'site-menu': HTMLSiteMenuElement;
     'site-top-bar': HTMLSiteTopBarElement;
+    'styleguide-page': HTMLStyleguidePageElement;
   }
 }
 
@@ -238,6 +246,7 @@ declare namespace LocalJSX {
     'siteStructureList'?: SiteStructureItem[];
   }
   interface SiteTopBar extends JSXBase.HTMLAttributes<HTMLSiteTopBarElement> {}
+  interface StyleguidePage extends JSXBase.HTMLAttributes<HTMLStyleguidePageElement> {}
 
   interface IntrinsicElements {
     'app-burger': AppBurger;
@@ -257,6 +266,7 @@ declare namespace LocalJSX {
     'site-header': SiteHeader;
     'site-menu': SiteMenu;
     'site-top-bar': SiteTopBar;
+    'styleguide-page': StyleguidePage;
   }
 }
 

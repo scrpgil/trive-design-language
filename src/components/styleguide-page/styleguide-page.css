@@ -1,0 +1,108 @@
+section {
+    margin-bottom: 40px;
+}
+
+styleguide-page h2 {
+    font-size: 24px;
+}
+
+styleguide-page .color-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+styleguide-page .color-wrapper .color-item {
+    margin: 8px;
+}
+
+styleguide-page .color-wrapper .color-item::first-child {
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+styleguide-page .color-wrapper .color-item::last-child {
+    margin-right: 0px;
+}
+
+styleguide-page .color-wrapper .color-item .title {
+    margin-top: 4px;
+}
+
+styleguide-page .color-wrapper .color-item .hex {
+}
+
+styleguide-page .color-wrapper .color-item .color {
+    height: 142px;
+    width: 142px;
+    border: 1px solid var(--td-color-border);
+}
+
+styleguide-page .color-wrapper .color-item .main .color {
+    background-color: var(--td-color-main-shade);
+}
+
+styleguide-page .color-wrapper .color-item .main-black .color {
+    background-color: var(--td-color-main-black);
+}
+
+styleguide-page .color-wrapper .color-item .sub-black .color {
+    background-color: var(--td-color-sub-black);
+}
+
+styleguide-page .color-wrapper .color-item .bg .color {
+    background-color: var(--td-color-bg);
+}
+
+styleguide-page .color-wrapper .color-item .light .color {
+    background-color: var(--td-color-light);
+}
+
+styleguide-page .color-wrapper .color-item .border .color {
+    background-color: var(--td-color-border);
+}
+
+styleguide-page .fonts-wrapper .title {
+    color: var(--td-color-main);
+    font-size: 16px;
+    font-weight: semi-bold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+styleguide-page .fonts-wrapper .font-family {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+styleguide-page .font-size-wrapper .extra-large {
+    font-size: 40px;
+}
+
+styleguide-page .font-size-wrapper .large {
+    font-size: 20px;
+}
+
+styleguide-page .font-size-wrapper .regular {
+    font-size: 16px;
+}
+
+styleguide-page .font-size-wrapper .small {
+    font-size: 14px;
+}
+
+styleguide-page .font-size-wrapper .extra-small {
+    font-size: 12px;
+}
+
+styleguide-page .font-size-wrapper {
+    margin-top: 40px;
+}
+styleguide-page .font-size-wrapper .title {
+    color: var(--td-color-main);
+    font-size: 16px;
+    font-weight: semi-bold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+styleguide-page .font-size-wrapper .font-size {
+    margin-bottom: 12px;
+}

@@ -72,6 +72,14 @@ export class SiteHeader {
                         ドキュメント
                     </stencil-route-link>
                     <stencil-route-link
+                        url="/styleguide"
+                        exact={true}
+                        onClick={() => {
+                            this.hideNav();
+                        }}>
+                        スタイルガイド
+                    </stencil-route-link>
+                    <stencil-route-link
                         url="/resources"
                         exact={true}
                         onClick={() => {
@@ -82,7 +90,11 @@ export class SiteHeader {
 
                     <ul class="external-links list--unstyled">
                         <li>
-                            <a rel="noopener" class="link--external" target="_blank" href="https://twitter.com/scrpgil">
+                            <a
+                                rel="noopener"
+                                class="link--external"
+                                target="_blank"
+                                href="https://twitter.com/scrpgil">
                                 <app-icon name="twitter" />
                             </a>
                         </li>

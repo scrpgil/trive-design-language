@@ -1,5 +1,5 @@
 ---
-title: What is this
+title: これはなに
 description: Provides a template for creating a WebComponent library.
 url: /docs/introduction
 ---
@@ -13,4 +13,3 @@ TRIVE Design Languageは技術書典7で頒布した書籍「ゼロから始め�
  - スタイルガイド
  - コンポーネントライブラリ
 
-この記事のリポジトリは [trive-design-language](https://github.com/scrpgil/trive-design-langage).

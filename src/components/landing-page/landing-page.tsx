@@ -15,7 +15,7 @@ export class LandingPage {
     }
 
     copyCommand = () => {
-        copy('copy me!');
+        copy('npm install @scrpgil/trive-uikit');
         this.isCopied = true;
         setTimeout(() => (this.isCopied = false), 1500);
     };
@@ -26,9 +26,9 @@ export class LandingPage {
                 <div class="hero container">
                     <hgroup>
                         <h1>TRIVE Design Language</h1>
-                        <p>It is a template for building component libraries quickly..</p>
+                        <p></p>
                         <stencil-route-link anchorClass="btn btn--primary" url="/docs/introduction">
-                            What is this?
+                            これはなに？
                         </stencil-route-link>
                     </hgroup>
                     <img src="/assets/img/symbol-color.svg" width="401" />
@@ -104,7 +104,7 @@ export class LandingPage {
                         <div class="cta__primary">
                             <h3>TRIVE Design Languageを始める:</h3>
                             <code class={{copied: this.isCopied}} onClick={this.copyCommand}>
-                                {this.isCopied ? 'copied!' : '$ npm install @trive/trive-uikit'}
+                                {this.isCopied ? 'copied!' : '$ npm install @scrpgil/trive-uikit'}
                             </code>
                             <span>
                                 Requires{' '}
