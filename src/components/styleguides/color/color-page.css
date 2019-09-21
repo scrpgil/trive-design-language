@@ -9,6 +9,7 @@ color-page h2 {
 color-page .color-wrapper {
     display: flex;
     flex-wrap: wrap;
+    font-weight: bold;
 }
 
 color-page .color-wrapper .color-item {
@@ -60,48 +61,14 @@ color-page .color-wrapper .color-item .border .color {
     background-color: var(--td-color-border);
 }
 
-color-page .fonts-wrapper .title {
-    color: var(--td-color-main);
-    font-size: 16px;
-    font-weight: semi-bold;
-    font-family: 'Noto Sans JP', sans-serif;
+color-page .color-wrapper .color-item .success .color {
+    background-color: var(--td-color-success);
 }
 
-color-page .fonts-wrapper .font-family {
-    font-size: 24px;
-    margin-bottom: 8px;
+color-page .color-wrapper .color-item .danger .color {
+    background-color: var(--td-color-danger);
 }
 
-color-page .font-size-wrapper .extra-large {
-    font-size: 40px;
-}
-
-color-page .font-size-wrapper .large {
-    font-size: 20px;
-}
-
-color-page .font-size-wrapper .regular {
-    font-size: 16px;
-}
-
-color-page .font-size-wrapper .small {
-    font-size: 14px;
-}
-
-color-page .font-size-wrapper .extra-small {
-    font-size: 12px;
-}
-
-color-page .font-size-wrapper {
-    margin-top: 40px;
-}
-color-page .font-size-wrapper .title {
-    color: var(--td-color-main);
-    font-size: 16px;
-    font-weight: semi-bold;
-    font-family: 'Noto Sans JP', sans-serif;
-}
-
-color-page .font-size-wrapper .font-size {
-    margin-bottom: 12px;
+color-page .color-wrapper .color-item .warning .color {
+    background-color: var(--td-color-warning);
 }

@@ -3,12 +3,12 @@
     "text": "導入",
     "children": [
       {
-        "text": "これはなに?",
+        "text": "Get Started",
         "filePath": "/assets/docs/introduction/what-is-this.json",
         "url": "/docs/introduction"
       },
       {
-        "text": "原則",
+        "text": "デザイン原則",
         "filePath": "/assets/docs/introduction/principle.json",
         "url": "/docs/principle"
       }
@@ -51,6 +51,11 @@
         "text": "td-card",
         "filePath": "/assets/docs/components/card.json",
         "url": "/docs/card"
+      },
+      {
+        "text": "td-page-nation",
+        "filePath": "/assets/docs/components/page-nation.json",
+        "url": "/docs/page-nation"
       }
     ]
   }

@@ -34,6 +34,7 @@ export class LandingPage {
                     <img src="/assets/img/symbol-color.svg" width="401" />
                 </div>
 
+          {/*
                 <div class="companies">
                     <div class="container">
                         <h3>構成要素</h3>
@@ -87,6 +88,7 @@ export class LandingPage {
                         </ul>
                     </div>
                 </div>
+          */}
 
                 <section class="overview">
                     <div class="cta">

@@ -1,7 +1,7 @@
 # Table of Contents
 
 * 導入
-  * [TDLとはなに?](introduction/what-is-this.md)
+  * [Get Started](introduction/what-is-this.md)
   * [デザイン原則](introduction/principle.md)
 * スタイルガイド
   * [カラー](styleguide/colors.md)
@@ -11,3 +11,4 @@
   * [td-badge](components/badge.md)
   * [td-form](components/form.md)
   * [td-card](components/card.md)
+  * [td-page-nation](components/page-nation.md)
