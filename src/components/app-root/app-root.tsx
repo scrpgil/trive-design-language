@@ -87,6 +87,7 @@ export class AppRoot {
                             <stencil-route component="notfound-page" />
                         </stencil-route-switch>
                     </stencil-router>
+                    {/*
                     <footer>
                         <div class="container">
                             <div class="footer__open-source">
@@ -104,6 +105,7 @@ export class AppRoot {
                             </div>
                         </div>
                     </footer>
+                    */}
                 </main>
             </SiteProviderConsumer.Provider>
         );
