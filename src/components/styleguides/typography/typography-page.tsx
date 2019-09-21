@@ -31,23 +31,23 @@ export class TypoGraphyPage {
                     </div>
                     <div class="font-size-wrapper font-english">
                         <div class="extra-large">
-                            <div class="title">extra-large</div>
+                            <div class="title">extra-large: (font-size: 40px)</div>
                             <div class="font-size">TRIVE Design</div>
                         </div>
                         <div class="large">
-                            <div class="title">large</div>
+                            <div class="title">large: (font-size: 20px)</div>
                             <div class="font-size">TRIVE Design</div>
                         </div>
                         <div class="regular">
-                            <div class="title">regular</div>
+                            <div class="title">regular: (font-size: 16px)</div>
                             <div class="font-size">TRIVE Design</div>
                         </div>
                         <div class="small">
-                            <div class="title">small</div>
+                            <div class="title">small: (font-size: 14px)</div>
                             <div class="font-size">TRIVE Design</div>
                         </div>
                         <div class="extra-small">
-                            <div class="title">extra-small</div>
+                            <div class="title">extra-small: (font-size: 12px)</div>
                             <div class="font-size">TRIVE Design</div>
                         </div>
                     </div>

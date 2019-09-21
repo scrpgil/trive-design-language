@@ -28,7 +28,7 @@ export class LandingPage {
                         <h1>TRIVE Design Language</h1>
                         <p />
                         <stencil-route-link anchorClass="btn btn--primary" url="/docs/introduction">
-                            What is this?
+                             Get Started!
                         </stencil-route-link>
                     </hgroup>
                     <img src="/assets/img/symbol-color.svg" width="401" />

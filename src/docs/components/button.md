@@ -26,6 +26,14 @@ url: /docs/button
 <td-button color="bg">Buttton</td-button>
 <td-button color="light">Buttton</td-button>
 <td-button color="border">Buttton</td-button>
+
+<!-- Fill -->
+<td-button fill="outline">Buttton</td-button>
+<td-button fill="clear">Buttton</td-button>
+
+<!-- Size -->
+<td-button fill="large">Buttton</td-button>
+<td-button fill="small">Buttton</td-button>
 ```
 
 
@@ -33,6 +41,8 @@ url: /docs/button
 
 ## プロパティ
 
-| Property          | Attribute          | Description                                                                                                                                                                                                                                                                               | Type                                                        | Default     |
-| ----------------- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ----------- |
-| `color`           | `color`            | カラーパレットから使用する色: `"main"`, `"main-black"`, `"sub-black"`, `"bg"`, `"light"`, `"border"`。 その他の色については [styleguide](/docs/styleguide)を参照してください。                   | `string \| undefined`                                       | `undefined` |
+| Property          | Attribute          | Description                                                                                                                                                                   | Type                  | Default     |
+| ----------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| ----------------------| ----------- |
+| `size`            | `size`             | Buttonのサイズを設定: `"large"`, `"small"`                                                                                                                                    | `string \| undefined` | `undefined` |
+| `color`           | `color`            | カラーパレットから使用する色: `"main"`, `"main-black"`, `"sub-black"`, `"bg"`, `"light"`, `"border"`。 その他の色については [styleguide](/docs/styleguide)を参照してください。| `string \| undefined` | `main` |
+| `fill`            | `fill`             | Buttonの色を埋める: `"clear"`, `"outline"`                                                                                                                                    | `string \| undefined` | `undefined` |

@@ -7,8 +7,8 @@
   * [カラー](styleguide/colors.md)
   * [タイポグラフィ](styleguide/typography.md)
 * コンポーネント
-  * [td-button](components/button.md)
-  * [td-badge](components/badge.md)
-  * [td-form](components/form.md)
-  * [td-card](components/card.md)
-  * [td-page-nation](components/page-nation.md)
+  * [button](components/button.md)
+  * [badge](components/badge.md)
+  * [form](components/form.md)
+  * [card](components/card.md)
+  * [page-nation](components/page-nation.md)

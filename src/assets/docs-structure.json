@@ -33,27 +33,27 @@
     "text": "コンポーネント",
     "children": [
       {
-        "text": "td-button",
+        "text": "button",
         "filePath": "/assets/docs/components/button.json",
         "url": "/docs/button"
       },
       {
-        "text": "td-badge",
+        "text": "badge",
         "filePath": "/assets/docs/components/badge.json",
         "url": "/docs/badge"
       },
       {
-        "text": "td-form",
+        "text": "form",
         "filePath": "/assets/docs/components/form.json",
         "url": "/docs/form"
       },
       {
-        "text": "td-card",
+        "text": "card",
         "filePath": "/assets/docs/components/card.json",
         "url": "/docs/card"
       },
       {
-        "text": "td-page-nation",
+        "text": "page-nation",
         "filePath": "/assets/docs/components/page-nation.json",
         "url": "/docs/page-nation"
       }

@@ -91,6 +91,7 @@ export class SiteHeader {
                     */}
 
                     <ul class="external-links list--unstyled">
+                        {/*
                         <li>
                             <a
                                 rel="noopener"
@@ -100,6 +101,7 @@ export class SiteHeader {
                                 <app-icon name="twitter" />
                             </a>
                         </li>
+                        */}
                         <li>
                             <a
                                 rel="noopener"
