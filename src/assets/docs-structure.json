@@ -53,8 +53,8 @@
         "url": "/docs/card"
       },
       {
-        "text": "page-nation",
-        "filePath": "/assets/docs/components/page-nation.json",
+        "text": "pagination",
+        "filePath": "/assets/docs/components/pagination.json",
         "url": "/docs/page-nation"
       }
     ]

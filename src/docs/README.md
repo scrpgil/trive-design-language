@@ -9,6 +9,3 @@
 * コンポーネント
   * [button](components/button.md)
   * [badge](components/badge.md)
-  * [form](components/form.md)
-  * [card](components/card.md)
-  * [page-nation](components/page-nation.md)

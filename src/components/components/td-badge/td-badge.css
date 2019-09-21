@@ -1,24 +1,26 @@
 td-badge-page .components {
-  margin-top: 20px;
+    margin-top: 20px;
+    padding: 0.3em 1.5em 1.5em;
+    border: 0.2rem solid #f8f9fa;
 }
 td-badge-page .text {
-  margin: 14px 0px;
+    margin: 14px 0px;
 }
-td-badge-page .text td-badge{
-  margin-left: 5px;
+td-badge-page .text td-badge {
+    margin-left: 5px;
 }
 td-badge-page .text .u-f-extra-large td-badge {
-  --font-size: 23px;
+    --font-size: 23px;
 }
 td-badge-page .text .u-f-large td-badge {
-  --font-size: 20px;
+    --font-size: 20px;
 }
 td-badge-page .text .u-f-regular td-badge {
-  --font-size: 14px;
+    --font-size: 14px;
 }
 td-badge-page .text .u-f-small td-badge {
-  --font-size: 10px;
+    --font-size: 10px;
 }
 td-badge-page .text .u-f-extra-small td-badge {
-  --font-size: 7px;
+    --font-size: 7px;
 }
