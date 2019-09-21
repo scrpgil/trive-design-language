@@ -18,8 +18,13 @@
     "text": "スタイルガイド",
     "children": [
       {
-        "text": "基本",
-        "filePath": "/assets/docs/styleguide/styleguid.json",
+        "text": "カラー",
+        "filePath": "/assets/docs/styleguide/colors.json",
+        "url": "/docs/colors"
+      },
+      {
+        "text": "タイポグラフィ",
+        "filePath": "/assets/docs/styleguide/typography.json",
         "url": "/docs/styleguide"
       }
     ]

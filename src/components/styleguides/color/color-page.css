@@ -1,0 +1,108 @@
+section {
+    margin-bottom: 40px;
+}
+
+color-page h2 {
+    font-size: 24px;
+}
+
+color-page .color-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+color-page .color-wrapper .color-item {
+    margin: 8px;
+}
+
+color-page .color-wrapper .color-item::first-child {
+    margin-left: 0px;
+    margin-right: 8px;
+}
+
+color-page .color-wrapper .color-item::last-child {
+    margin-right: 0px;
+}
+
+color-page .color-wrapper .color-item .title {
+    margin-top: 4px;
+}
+
+color-page .color-wrapper .color-item .hex {
+}
+
+color-page .color-wrapper .color-item .color {
+    height: 142px;
+    width: 142px;
+    border: 1px solid var(--td-color-border);
+}
+
+color-page .color-wrapper .color-item .main .color {
+    background-color: var(--td-color-main-shade);
+}
+
+color-page .color-wrapper .color-item .main-black .color {
+    background-color: var(--td-color-main-black);
+}
+
+color-page .color-wrapper .color-item .sub-black .color {
+    background-color: var(--td-color-sub-black);
+}
+
+color-page .color-wrapper .color-item .bg .color {
+    background-color: var(--td-color-bg);
+}
+
+color-page .color-wrapper .color-item .light .color {
+    background-color: var(--td-color-light);
+}
+
+color-page .color-wrapper .color-item .border .color {
+    background-color: var(--td-color-border);
+}
+
+color-page .fonts-wrapper .title {
+    color: var(--td-color-main);
+    font-size: 16px;
+    font-weight: semi-bold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+color-page .fonts-wrapper .font-family {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+color-page .font-size-wrapper .extra-large {
+    font-size: 40px;
+}
+
+color-page .font-size-wrapper .large {
+    font-size: 20px;
+}
+
+color-page .font-size-wrapper .regular {
+    font-size: 16px;
+}
+
+color-page .font-size-wrapper .small {
+    font-size: 14px;
+}
+
+color-page .font-size-wrapper .extra-small {
+    font-size: 12px;
+}
+
+color-page .font-size-wrapper {
+    margin-top: 40px;
+}
+color-page .font-size-wrapper .title {
+    color: var(--td-color-main);
+    font-size: 16px;
+    font-weight: semi-bold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+color-page .font-size-wrapper .font-size {
+    margin-bottom: 12px;
+}

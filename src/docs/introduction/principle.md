@@ -1,10 +1,10 @@
 ---
-title: 原則
+title: デザイン原則
 description: Provides a template for creating a WebComponent library.
 url: /docs/principle
 ---
 
-# 原則
+# デザイン原則
 
 TRIVE Design Languageは次の3つの原則が定義されています。
 

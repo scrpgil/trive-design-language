@@ -10,14 +10,8 @@ url: /docs/button
 
 ## 例
 
-<div class="components">
-    <td-button color="main">Buttton</td-button>
-    <td-button color="main-black">Buttton</td-button>
-    <td-button color="sub-black">Buttton</td-button>
-    <td-button color="bg">Buttton</td-button>
-    <td-button color="light">Buttton</td-button>
-    <td-button color="border">Buttton</td-button>
-</div>
+<td-button-page></td-button-page>
+
 
 ## 利用方法
 

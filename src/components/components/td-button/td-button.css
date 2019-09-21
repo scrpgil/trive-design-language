@@ -1,0 +1,10 @@
+td-button-page .components {
+  margin-top: 20px;
+}
+td-button-page .item {
+  font-size: 14px;
+  margin: 8px 4px;
+}
+td-button-page .item td-button {
+  font-size: 18px;
+}

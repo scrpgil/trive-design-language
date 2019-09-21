@@ -4,7 +4,8 @@
   * [これはなに?](introduction/what-is-this.md)
   * [原則](introduction/principle.md)
 * スタイルガイド
-  * [基本](styleguide/styleguid.md)
+  * [カラー](styleguide/colors.md)
+  * [タイポグラフィ](styleguide/typography.md)
 * コンポーネント
   * [td-button](components/button.md)
   * [td-badge](components/badge.md)

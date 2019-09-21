@@ -19,6 +19,7 @@ export namespace Components {
     'name'?: string;
   }
   interface AppRoot {}
+  interface ColorPage {}
   interface ContributorList {
     'contributors'?: string[];
   }
@@ -62,6 +63,12 @@ export namespace Components {
   }
   interface SiteTopBar {}
   interface StyleguidePage {}
+  interface TdBadgePage {}
+  interface TdButtonPage {}
+  interface TdCardPage {}
+  interface TdFormPage {}
+  interface TdPageNationPage {}
+  interface TypographyPage {}
 }
 
 declare global {
@@ -83,6 +90,12 @@ declare global {
   var HTMLAppRootElement: {
     prototype: HTMLAppRootElement;
     new (): HTMLAppRootElement;
+  };
+
+  interface HTMLColorPageElement extends Components.ColorPage, HTMLStencilElement {}
+  var HTMLColorPageElement: {
+    prototype: HTMLColorPageElement;
+    new (): HTMLColorPageElement;
   };
 
   interface HTMLContributorListElement extends Components.ContributorList, HTMLStencilElement {}
@@ -174,10 +187,47 @@ declare global {
     prototype: HTMLStyleguidePageElement;
     new (): HTMLStyleguidePageElement;
   };
+
+  interface HTMLTdBadgePageElement extends Components.TdBadgePage, HTMLStencilElement {}
+  var HTMLTdBadgePageElement: {
+    prototype: HTMLTdBadgePageElement;
+    new (): HTMLTdBadgePageElement;
+  };
+
+  interface HTMLTdButtonPageElement extends Components.TdButtonPage, HTMLStencilElement {}
+  var HTMLTdButtonPageElement: {
+    prototype: HTMLTdButtonPageElement;
+    new (): HTMLTdButtonPageElement;
+  };
+
+  interface HTMLTdCardPageElement extends Components.TdCardPage, HTMLStencilElement {}
+  var HTMLTdCardPageElement: {
+    prototype: HTMLTdCardPageElement;
+    new (): HTMLTdCardPageElement;
+  };
+
+  interface HTMLTdFormPageElement extends Components.TdFormPage, HTMLStencilElement {}
+  var HTMLTdFormPageElement: {
+    prototype: HTMLTdFormPageElement;
+    new (): HTMLTdFormPageElement;
+  };
+
+  interface HTMLTdPageNationPageElement extends Components.TdPageNationPage, HTMLStencilElement {}
+  var HTMLTdPageNationPageElement: {
+    prototype: HTMLTdPageNationPageElement;
+    new (): HTMLTdPageNationPageElement;
+  };
+
+  interface HTMLTypographyPageElement extends Components.TypographyPage, HTMLStencilElement {}
+  var HTMLTypographyPageElement: {
+    prototype: HTMLTypographyPageElement;
+    new (): HTMLTypographyPageElement;
+  };
   interface HTMLElementTagNameMap {
     'app-burger': HTMLAppBurgerElement;
     'app-icon': HTMLAppIconElement;
     'app-root': HTMLAppRootElement;
+    'color-page': HTMLColorPageElement;
     'contributor-list': HTMLContributorListElement;
     'custom-clock': HTMLCustomClockElement;
     'demo-card': HTMLDemoCardElement;
@@ -193,6 +243,12 @@ declare global {
     'site-menu': HTMLSiteMenuElement;
     'site-top-bar': HTMLSiteTopBarElement;
     'styleguide-page': HTMLStyleguidePageElement;
+    'td-badge-page': HTMLTdBadgePageElement;
+    'td-button-page': HTMLTdButtonPageElement;
+    'td-card-page': HTMLTdCardPageElement;
+    'td-form-page': HTMLTdFormPageElement;
+    'td-page-nation-page': HTMLTdPageNationPageElement;
+    'typography-page': HTMLTypographyPageElement;
   }
 }
 
@@ -204,6 +260,7 @@ declare namespace LocalJSX {
     'name'?: string;
   }
   interface AppRoot extends JSXBase.HTMLAttributes<HTMLAppRootElement> {}
+  interface ColorPage extends JSXBase.HTMLAttributes<HTMLColorPageElement> {}
   interface ContributorList extends JSXBase.HTMLAttributes<HTMLContributorListElement> {
     'contributors'?: string[];
   }
@@ -247,11 +304,18 @@ declare namespace LocalJSX {
   }
   interface SiteTopBar extends JSXBase.HTMLAttributes<HTMLSiteTopBarElement> {}
   interface StyleguidePage extends JSXBase.HTMLAttributes<HTMLStyleguidePageElement> {}
+  interface TdBadgePage extends JSXBase.HTMLAttributes<HTMLTdBadgePageElement> {}
+  interface TdButtonPage extends JSXBase.HTMLAttributes<HTMLTdButtonPageElement> {}
+  interface TdCardPage extends JSXBase.HTMLAttributes<HTMLTdCardPageElement> {}
+  interface TdFormPage extends JSXBase.HTMLAttributes<HTMLTdFormPageElement> {}
+  interface TdPageNationPage extends JSXBase.HTMLAttributes<HTMLTdPageNationPageElement> {}
+  interface TypographyPage extends JSXBase.HTMLAttributes<HTMLTypographyPageElement> {}
 
   interface IntrinsicElements {
     'app-burger': AppBurger;
     'app-icon': AppIcon;
     'app-root': AppRoot;
+    'color-page': ColorPage;
     'contributor-list': ContributorList;
     'custom-clock': CustomClock;
     'demo-card': DemoCard;
@@ -267,6 +331,12 @@ declare namespace LocalJSX {
     'site-menu': SiteMenu;
     'site-top-bar': SiteTopBar;
     'styleguide-page': StyleguidePage;
+    'td-badge-page': TdBadgePage;
+    'td-button-page': TdButtonPage;
+    'td-card-page': TdCardPage;
+    'td-form-page': TdFormPage;
+    'td-page-nation-page': TdPageNationPage;
+    'typography-page': TypographyPage;
   }
 }
 

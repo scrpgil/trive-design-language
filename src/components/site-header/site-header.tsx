@@ -59,7 +59,7 @@ export class SiteHeader {
         return (
             <div class="container">
                 <stencil-route-link url="/" class="logo-link" anchorTitle="TRIVE logo">
-                    <img src="/assets/img/logo-trive.svg" width="120" />
+                    <img src="/assets/img/logo-trive.svg" width="100" />
                 </stencil-route-link>
 
                 <div class="header-menu">

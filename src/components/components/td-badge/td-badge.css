@@ -1,0 +1,10 @@
+td-badge-page .components {
+  margin-top: 20px;
+}
+td-badge-page .item {
+  font-size: 14px;
+  margin: 8px 4px;
+}
+td-badge-page .item td-badge {
+  font-size: 18px;
+}
