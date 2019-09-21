@@ -6,61 +6,6 @@ typography-page h2 {
     font-size: 24px;
 }
 
-typography-page .color-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-typography-page .color-wrapper .color-item {
-    margin: 8px;
-}
-
-typography-page .color-wrapper .color-item::first-child {
-    margin-left: 0px;
-    margin-right: 8px;
-}
-
-typography-page .color-wrapper .color-item::last-child {
-    margin-right: 0px;
-}
-
-typography-page .color-wrapper .color-item .title {
-    margin-top: 4px;
-}
-
-typography-page .color-wrapper .color-item .hex {
-}
-
-typography-page .color-wrapper .color-item .color {
-    height: 142px;
-    width: 142px;
-    border: 1px solid var(--td-color-border);
-}
-
-typography-page .color-wrapper .color-item .main .color {
-    background-color: var(--td-color-main-shade);
-}
-
-typography-page .color-wrapper .color-item .main-black .color {
-    background-color: var(--td-color-main-black);
-}
-
-typography-page .color-wrapper .color-item .sub-black .color {
-    background-color: var(--td-color-sub-black);
-}
-
-typography-page .color-wrapper .color-item .bg .color {
-    background-color: var(--td-color-bg);
-}
-
-typography-page .color-wrapper .color-item .light .color {
-    background-color: var(--td-color-light);
-}
-
-typography-page .color-wrapper .color-item .border .color {
-    background-color: var(--td-color-border);
-}
-
 typography-page .fonts-wrapper .title {
     color: var(--td-color-main);
     font-size: 16px;
@@ -71,6 +16,7 @@ typography-page .fonts-wrapper .title {
 typography-page .fonts-wrapper .font-family {
     font-size: 24px;
     margin-bottom: 8px;
+    font-weight: bold;
 }
 
 typography-page .font-size-wrapper .extra-large {

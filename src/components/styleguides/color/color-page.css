@@ -34,7 +34,6 @@ color-page .color-wrapper .color-item .hex {
 color-page .color-wrapper .color-item .color {
     height: 142px;
     width: 142px;
-    border: 1px solid var(--td-color-border);
 }
 
 color-page .color-wrapper .color-item .main .color {
