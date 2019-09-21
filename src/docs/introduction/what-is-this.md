@@ -1,10 +1,10 @@
 ---
-title: これはなに
+title: TDLとはなに？
 description: Provides a template for creating a WebComponent library.
 url: /docs/introduction
 ---
 
-# これはなに？
+# TDLとはなに？
 
 TRIVE Design Languageは技術書典7で頒布した書籍「ゼロから始めるデザインシステム」用に作成したデザインシステムになります。以下のコンテンツがあります。
 
@@ -12,4 +12,3 @@ TRIVE Design Languageは技術書典7で頒布した書籍「ゼロから始め�
  - デザイン原則
  - スタイルガイド
  - コンポーネントライブラリ
-

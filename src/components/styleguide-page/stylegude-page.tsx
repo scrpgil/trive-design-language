@@ -16,8 +16,7 @@ export class StyleGudidePage {
 
     render() {
         return (
-            <div class="container">
-                <h1 class="headline">スタイルガイド</h1>
+            <div class="content-wrapper">
                 <section>
                     <h2>カラー</h2>
                     <div class="color-wrapper">

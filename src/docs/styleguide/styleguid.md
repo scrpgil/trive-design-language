@@ -8,3 +8,5 @@ url: /docs/styleguide
 
 TRIVE Design Langageを作成するためにスタイルガイドを設けてあります。
 詳細はスタイルガイドのページにアクセスしてください。
+
+<styleguide-page />

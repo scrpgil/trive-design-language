@@ -3,9 +3,10 @@
 * 導入
   * [これはなに?](introduction/what-is-this.md)
   * [原則](introduction/principle.md)
-  * [スタイルガイド](introduction/styleguid.md)
+* スタイルガイド
+  * [基本](styleguide/styleguid.md)
 * コンポーネント
-  * [Button](chapter/section1.md)
-  * [Badge](chapter/section2.md)
-  * [Form](chapter/section2.md)
-  * [Card](chapter/section2.md)
+  * [td-button](components/button.md)
+  * [td-badge](components/badge.md)
+  * [td-form](components/form.md)
+  * [td-card](components/card.md)

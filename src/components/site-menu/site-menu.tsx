@@ -31,7 +31,7 @@ export class SiteMenu implements ComponentInterface{
                       {item.text}
                     </span>
                   </a>
-                  <ul class={{ 'collapsed': item !== this.selectedParent }}>
+                  <ul>
                   { item.children!.map((childItem) => (
                     <li>
                       { (childItem.url) ?

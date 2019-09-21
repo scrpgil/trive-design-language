@@ -79,6 +79,7 @@ export class SiteHeader {
                         }}>
                         スタイルガイド
                     </stencil-route-link>
+                    {/*
                     <stencil-route-link
                         url="/resources"
                         exact={true}
@@ -87,6 +88,7 @@ export class SiteHeader {
                         }}>
                         事例
                     </stencil-route-link>
+                    */}
 
                     <ul class="external-links list--unstyled">
                         <li>

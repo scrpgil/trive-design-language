@@ -38,5 +38,8 @@
     "url": "git+https://github.com/scrpgil/component-library-template"
   },
   "author": "scrpgil",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@scrpgil/trive-uikit": "file:trive-uikit"
+  }
 }

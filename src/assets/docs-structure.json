@@ -11,10 +11,15 @@
         "text": "原則",
         "filePath": "/assets/docs/introduction/principle.json",
         "url": "/docs/principle"
-      },
+      }
+    ]
+  },
+  {
+    "text": "スタイルガイド",
+    "children": [
       {
-        "text": "スタイルガイド",
-        "filePath": "/assets/docs/introduction/styleguid.json",
+        "text": "基本",
+        "filePath": "/assets/docs/styleguide/styleguid.json",
         "url": "/docs/styleguide"
       }
     ]
@@ -23,24 +28,24 @@
     "text": "コンポーネント",
     "children": [
       {
-        "text": "Button",
-        "filePath": "/assets/docs/chapter/section1.json",
-        "url": "/docs/section1"
+        "text": "td-button",
+        "filePath": "/assets/docs/components/button.json",
+        "url": "/docs/button"
       },
       {
-        "text": "Badge",
-        "filePath": "/assets/docs/chapter/section2.json",
-        "url": "/docs/section2"
+        "text": "td-badge",
+        "filePath": "/assets/docs/components/badge.json",
+        "url": "/docs/badge"
       },
       {
-        "text": "Form",
-        "filePath": "/assets/docs/chapter/section2.json",
-        "url": "/docs/section2"
+        "text": "td-form",
+        "filePath": "/assets/docs/components/form.json",
+        "url": "/docs/form"
       },
       {
-        "text": "Card",
-        "filePath": "/assets/docs/chapter/section2.json",
-        "url": "/docs/section2"
+        "text": "td-card",
+        "filePath": "/assets/docs/components/card.json",
+        "url": "/docs/card"
       }
     ]
   }

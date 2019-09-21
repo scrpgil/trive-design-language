@@ -26,9 +26,9 @@ export class LandingPage {
                 <div class="hero container">
                     <hgroup>
                         <h1>TRIVE Design Language</h1>
-                        <p></p>
+                        <p />
                         <stencil-route-link anchorClass="btn btn--primary" url="/docs/introduction">
-                            これはなに？
+                            What is this?
                         </stencil-route-link>
                     </hgroup>
                     <img src="/assets/img/symbol-color.svg" width="401" />
@@ -42,11 +42,7 @@ export class LandingPage {
                                 <div class="td-card">
                                     <div class="td-card-title">デザイン原則</div>
                                     <p class="td-card-content">
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's
-                                        standard dummy text ever since the 1500s, when an unknown
-                                        printer took a galley of type and scrambled it to make a
-                                        type specimen book.
+                                        TRIVE Design Languageのデザイン原則です。
                                     </p>
                                     <div class="td-card-footer">
                                         <stencil-route-link
@@ -61,11 +57,8 @@ export class LandingPage {
                                 <div class="td-card">
                                     <div class="td-card-title">スタイルガイド</div>
                                     <p class="td-card-content">
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's
-                                        standard dummy text ever since the 1500s, when an unknown
-                                        printer took a galley of type and scrambled it to make a
-                                        type specimen book.
+                                        カラー、フォントサイズなどスタイルに対するガイドラインです。
+                                        ここを読めばTDLのスタイルについて理解できます。
                                     </p>
                                     <div class="td-card-footer">
                                         <stencil-route-link
@@ -80,11 +73,7 @@ export class LandingPage {
                                 <div class="td-card">
                                     <div class="td-card-title">コンポーネント</div>
                                     <p class="td-card-content">
-                                        Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's
-                                        standard dummy text ever since the 1500s, when an unknown
-                                        printer took a galley of type and scrambled it to make a
-                                        type specimen book.
+                                        開発効率化のためにコンポーネントを提供しています。
                                     </p>
                                     <div class="td-card-footer">
                                         <stencil-route-link
