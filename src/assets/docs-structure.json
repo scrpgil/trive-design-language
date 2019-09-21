@@ -18,12 +18,12 @@
     "text": "スタイルガイド",
     "children": [
       {
-        "text": "カラー",
+        "text": "Color",
         "filePath": "/assets/docs/styleguide/colors.json",
         "url": "/docs/colors"
       },
       {
-        "text": "タイポグラフィ",
+        "text": "Typography",
         "filePath": "/assets/docs/styleguide/typography.json",
         "url": "/docs/styleguide"
       }

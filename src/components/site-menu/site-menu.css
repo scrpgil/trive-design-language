@@ -4,7 +4,7 @@ site-menu {
 }
 
 site-menu .section-label {
-  color: var(--color-woodsmoke);
+  color: var(--td-color-main-black);
   margin-bottom: 0;
   font-size: 14px;
   font-weight: 600;
@@ -40,7 +40,7 @@ site-menu .menu-list > li + li {
 
 site-menu .menu-list a {
   font-weight: 400;
-  color: #6c6c8b;
+  color: var(--td-color-sub-black);
   text-decoration: none;
   border: 0;
 }
@@ -55,11 +55,11 @@ site-menu .menu-list a:hover {
 
 site-menu .menu-list .link-active {
   font-weight: bold;
-  color: var(--color-dodger-blue);
+  color: var(--td-color-main);
 }
 
 site-menu .menu-list a:hover:not(.link-active) {
-  color: var(--color-woodsmoke);
+  color: var(--td-color-main-black);
 }
 
 site-menu .menu-list ul li {
@@ -91,7 +91,7 @@ site-menu .menu-list ul.collapsed li {
     color: white;
   }
   site-menu .menu-list a {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--td-color-sub-black);
   }
   site-menu .menu-list a:hover:not(.link-active) {
     color: white;

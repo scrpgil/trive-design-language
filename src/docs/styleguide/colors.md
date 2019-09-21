@@ -1,9 +1,9 @@
 ---
-title: カラー
+title: Color
 description: Provides a template for creating a WebComponent library.
 url: /docs/colors
 ---
 
-# カラー
+# Color
 
 <color-page></color-page>

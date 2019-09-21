@@ -4,8 +4,8 @@
   * [Get Started](introduction/what-is-this.md)
   * [デザイン原則](introduction/principle.md)
 * スタイルガイド
-  * [カラー](styleguide/colors.md)
-  * [タイポグラフィ](styleguide/typography.md)
+  * [Color](styleguide/colors.md)
+  * [Typography](styleguide/typography.md)
 * コンポーネント
   * [button](components/button.md)
   * [badge](components/badge.md)

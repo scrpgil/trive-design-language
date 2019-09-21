@@ -18,7 +18,7 @@ export class ColorPage {
         return (
             <div class="content-wrapper">
                 <section>
-                    <h2>サービスカラー</h2>
+                    <h2>Service Color</h2>
                     <div class="color-wrapper">
                         <div class="color-item">
                             <div class="main" onClick={() => this.copyCommand('#EA4600')}>
@@ -63,7 +63,7 @@ export class ColorPage {
                             </div>
                         </div>
                     </div>
-                    <h2>ステータスカラー</h2>
+                    <h2>Status Color</h2>
                     <div class="color-wrapper">
                         <div class="color-item">
                             <div class="success" onClick={() => this.copyCommand('#1CD223')}>

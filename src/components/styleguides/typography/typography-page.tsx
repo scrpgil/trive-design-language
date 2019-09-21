@@ -18,7 +18,7 @@ export class TypoGraphyPage {
         return (
             <div class="content-wrapper">
                 <section>
-                    <h2>フォント</h2>
+                    <h2>Fonts</h2>
                     <div class="fonts-wrapper">
                         <div class="font-japanese">
                             <div class="title">日本語</div>
