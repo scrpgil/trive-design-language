@@ -20,23 +20,23 @@ typography-page .fonts-wrapper .font-family {
 }
 
 typography-page .font-size-wrapper .extra-large {
-    font-size: 40px;
+    font-size: var(--td-text-extra-large);
 }
 
 typography-page .font-size-wrapper .large {
-    font-size: 20px;
+    font-size: var(--td-text-large);
 }
 
 typography-page .font-size-wrapper .regular {
-    font-size: 16px;
+    font-size: var(--td-text-regular);
 }
 
 typography-page .font-size-wrapper .small {
-    font-size: 14px;
+    font-size: var(--td-text-small);
 }
 
 typography-page .font-size-wrapper .extra-small {
-    font-size: 12px;
+    font-size: var(--td-text-extra-small);
 }
 
 typography-page .font-size-wrapper {

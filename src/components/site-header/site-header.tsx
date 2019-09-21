@@ -69,7 +69,7 @@ export class SiteHeader {
                         onClick={() => {
                             this.hideNav();
                         }}>
-                        ドキュメント
+                        Document
                     </stencil-route-link>
                     {/*
                     <stencil-route-link

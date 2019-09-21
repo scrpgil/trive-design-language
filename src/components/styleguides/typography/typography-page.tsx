@@ -35,7 +35,7 @@ export class TypoGraphyPage {
                             <div class="font-size">TRIVE Design</div>
                         </div>
                         <div class="large">
-                            <div class="title">large: (font-size: 20px)</div>
+                            <div class="title">large: (font-size: 25px)</div>
                             <div class="font-size">TRIVE Design</div>
                         </div>
                         <div class="regular">
