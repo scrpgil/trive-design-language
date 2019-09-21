@@ -18,7 +18,6 @@ export class ColorPage {
         return (
             <div class="content-wrapper">
                 <section>
-                    <h2>カラー</h2>
                     <div class="color-wrapper">
                         <div class="color-item">
                             <div class="main" onClick={() => this.copyCommand('#EA4600')}>

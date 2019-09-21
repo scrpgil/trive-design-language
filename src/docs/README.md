@@ -1,8 +1,8 @@
 # Table of Contents
 
 * 導入
-  * [これはなに?](introduction/what-is-this.md)
-  * [原則](introduction/principle.md)
+  * [TDLとはなに?](introduction/what-is-this.md)
+  * [デザイン原則](introduction/principle.md)
 * スタイルガイド
   * [カラー](styleguide/colors.md)
   * [タイポグラフィ](styleguide/typography.md)

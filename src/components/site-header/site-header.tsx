@@ -71,6 +71,7 @@ export class SiteHeader {
                         }}>
                         ドキュメント
                     </stencil-route-link>
+                    {/*
                     <stencil-route-link
                         url="/styleguide"
                         exact={true}
@@ -79,7 +80,6 @@ export class SiteHeader {
                         }}>
                         スタイルガイド
                     </stencil-route-link>
-                    {/*
                     <stencil-route-link
                         url="/resources"
                         exact={true}
