@@ -43,19 +43,9 @@
         "url": "/docs/badge"
       },
       {
-        "text": "form",
-        "filePath": "/assets/docs/components/form.json",
-        "url": "/docs/form"
-      },
-      {
-        "text": "card",
-        "filePath": "/assets/docs/components/card.json",
-        "url": "/docs/card"
-      },
-      {
-        "text": "pagination",
-        "filePath": "/assets/docs/components/pagination.json",
-        "url": "/docs/page-nation"
+        "text": "input",
+        "filePath": "/assets/docs/components/input.json",
+        "url": "/docs/input"
       }
     ]
   }

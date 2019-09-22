@@ -9,3 +9,4 @@
 * コンポーネント
   * [button](components/button.md)
   * [badge](components/badge.md)
+  * [input](components/input.md)

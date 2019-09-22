@@ -1,0 +1,12 @@
+td-input-page .components {
+    margin-top: 20px;
+    padding: 1.5em 1.5em 1.5em;
+    border: 0.2rem solid #f8f9fa;
+}
+td-input-page .item {
+    font-size: 14px;
+    margin: 8px 4px;
+}
+td-input-page .item td-input {
+    font-size: 18px;
+}

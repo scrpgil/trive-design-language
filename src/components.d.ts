@@ -66,7 +66,7 @@ export namespace Components {
   interface TdBadgePage {}
   interface TdButtonPage {}
   interface TdCardPage {}
-  interface TdFormPage {}
+  interface TdInputPage {}
   interface TdPageNationPage {}
   interface TypographyPage {}
 }
@@ -206,10 +206,10 @@ declare global {
     new (): HTMLTdCardPageElement;
   };
 
-  interface HTMLTdFormPageElement extends Components.TdFormPage, HTMLStencilElement {}
-  var HTMLTdFormPageElement: {
-    prototype: HTMLTdFormPageElement;
-    new (): HTMLTdFormPageElement;
+  interface HTMLTdInputPageElement extends Components.TdInputPage, HTMLStencilElement {}
+  var HTMLTdInputPageElement: {
+    prototype: HTMLTdInputPageElement;
+    new (): HTMLTdInputPageElement;
   };
 
   interface HTMLTdPageNationPageElement extends Components.TdPageNationPage, HTMLStencilElement {}
@@ -246,7 +246,7 @@ declare global {
     'td-badge-page': HTMLTdBadgePageElement;
     'td-button-page': HTMLTdButtonPageElement;
     'td-card-page': HTMLTdCardPageElement;
-    'td-form-page': HTMLTdFormPageElement;
+    'td-input-page': HTMLTdInputPageElement;
     'td-page-nation-page': HTMLTdPageNationPageElement;
     'typography-page': HTMLTypographyPageElement;
   }
@@ -307,7 +307,7 @@ declare namespace LocalJSX {
   interface TdBadgePage extends JSXBase.HTMLAttributes<HTMLTdBadgePageElement> {}
   interface TdButtonPage extends JSXBase.HTMLAttributes<HTMLTdButtonPageElement> {}
   interface TdCardPage extends JSXBase.HTMLAttributes<HTMLTdCardPageElement> {}
-  interface TdFormPage extends JSXBase.HTMLAttributes<HTMLTdFormPageElement> {}
+  interface TdInputPage extends JSXBase.HTMLAttributes<HTMLTdInputPageElement> {}
   interface TdPageNationPage extends JSXBase.HTMLAttributes<HTMLTdPageNationPageElement> {}
   interface TypographyPage extends JSXBase.HTMLAttributes<HTMLTypographyPageElement> {}
 
@@ -334,7 +334,7 @@ declare namespace LocalJSX {
     'td-badge-page': TdBadgePage;
     'td-button-page': TdButtonPage;
     'td-card-page': TdCardPage;
-    'td-form-page': TdFormPage;
+    'td-input-page': TdInputPage;
     'td-page-nation-page': TdPageNationPage;
     'typography-page': TypographyPage;
   }
